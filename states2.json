@@ -1,0 +1,402 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "States",
+   "children": [
+    {
+     "name": "Jobs",
+     "children": [
+      {"name": "Alabama", "size":162, "leaning":36.0, "detail":[
+          { "employer":"Houston County", "emptype":"Public", "actiondetail":"Cut hours of part-time employees to fewer than 30 per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"University of Alabama", "emptype":"Public", "actiondetail":"Capped student work hours at 20 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"University of North Alabama", "emptype":"Public", "actiondetail":"Capped work hours at 29 per week for student employees", "jobsimpacted":55, "when":"7/13/2013"}]
+      },
+
+      {"name": "Arizona", "size":1908, "leaning":19.5, "detail":[
+          { "employer":"Michael Monti's La Casa Vieja steakhouse", "emptype":"Private", "actiondetail":"Shifting more workers to fewer than 30 hours per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Arizona State University", "emptype":"Public", "actiondetail":"Limited course loads for non-tenured associate faculty members", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Maricopa Community Colleges", "emptype":"Public", "actiondetail":"Reduced hours of 700 adjunct faculty and 600 part-time workers below 30 per week", "jobsimpacted":1300, "when":"5/13/2013"},
+          { "employer":"University of Arizona in Tucson", "emptype":"Public", "actiondetail":"Limited hours temporary employees may work in a year", "jobsimpacted":500, "when":"5/13/2013"}]
+      },
+
+      {"name": "Arkansas", "size":216, "leaning":26.7, "detail":[
+          { "employer":"Pulaski Technical College", "emptype":"Public", "actiondetail":"Capped course loads for adjunct faculty", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Area Agency on Aging of Western Arkansas, Inc.", "emptype":"Private", "actiondetail":"Cut hours for staff of 500 home health aides and drivers to 28 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Wal-Mart Stores Inc.", "emptype":"Private", "actiondetail":"Increased temp share of workforce to 'fewer than 10%' from 1-2% before this year", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Arkansas State University", "emptype":"Public", "actiondetail":"Limited adjunct course loads and reduced hours for part-time employees, including students, to a maximum of 28 per week", "jobsimpacted":55, "when":"6/13/2013"}]},
+
+      {"name": "California", "size":582, "leaning":6.3, "detail":[
+          { "employer":"Biola University", "emptype":"Private", "actiondetail":"Cut student work hours to a maximum of 25 per week; suspended limit due to employer mandate delay", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Mexican American Opportunity Foundation", "emptype":"Private", "actiondetail":"Cut hours of employees working up to 39 hours a week to less than 30", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Fatburger", "emptype":"Private", "actiondetail":"Cut some workers to sub-30 hours per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"San Diego Community College District", "emptype":"Public", "actiondetail":"Restricted student employees and other non-academic workers to no more than 25 hours per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"CKE Restaurants Inc.", "emptype":"Private", "actiondetail":"Increasing part-time workforce by replacing full-time workers through attrition", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Kern County", "emptype":"Public", "actiondetail":"Will limit work schedules for up to 800 extra-help workers or reduce workforce", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Rancho Cucamonga", "emptype":"Public", "actiondetail":"Cut hours for most part-time workers below 30 per week", "jobsimpacted":30, "when":"6/13/2013"},
+          { "employer":"San Gabriel", "emptype":"Public", "actiondetail":"Reduced hours for part-timers to fewer than 30 per week.", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Long Beach", "emptype":"Public", "actiondetail":"Reducing hours to 27 per week for up to 200 part-timers", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Tehama County", "emptype":"Public", "actiondetail":"Limited extra-help employee work hours to fewer than 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"North of the River Recreation and Park District", "emptype":"Public", "actiondetail":"Cut hours for part-time workers below 30 per week", "jobsimpacted":12, "when":"4/13/2013"},
+          { "employer":"Lake County", "emptype":"Public", "actiondetail":"Cut hours for extra-help employees to a limit of 25 per week", "jobsimpacted":55, "when":"12/12/2013"}]},
+
+      {"name": "Colorado", "size":163, "leaning":15.7, "detail":[
+          { "employer":"Fountain Fire Dept.", "emptype":"Public", "actiondetail":"Cut hours of part-timers to a maximum of 29 per week", "jobsimpacted":6, "when":"5/13/2013"},
+          { "employer":"Charco Broiler", "emptype":"Private", "actiondetail":"Trimmed work hours to stay below 50 full-time equivalent threshold", "jobsimpacted":3, "when":"4/13/2013"},
+          { "employer":"Durango", "emptype":"Public", "actiondetail":"Limiting part-timers to 27 hours per week to avoid $900,000 in additional health care costs.", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Mountain Del (Del Taco franchisee)", "emptype":"Private", "actiondetail":"cutting full-time workforce by 100; capping part-timers at 28 hours per week", "jobsimpacted":100, "when":"4/13/2013"}]},
+
+      {"name": "District of Columbia", "size":55, "leaning":-20.3, "detail":[
+          { "employer":"Clyde's Restaurant Group", "emptype":"Private", "actiondetail":"Shifting mix of workers toward more part-timers", "jobsimpacted":55, "when":"6/13/2013"}]},
+
+      {"name": "Florida", "size":1260, "leaning":17.2, "detail":[
+          { "employer":"Bealls Inc. (Department Stores)", "emptype":"Private", "actiondetail":"Restricted part-time hours to fewer than 30 per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"SeaWorld Entertainment", "emptype":"Private", "actiondetail":"Cut hours for part-time workers from a maximum of 32 to 28 per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Brevard County", "emptype":"Public", "actiondetail":"Reducing hours for most of 138 part-time workers who work more than 30 hours per week", "jobsimpacted":37, "when":"7/13/2013"},
+          { "employer":"Buca di Beppo restaurant chain", "emptype":"Private", "actiondetail":"Reduced hours to below 30 per week", "jobsimpacted":400, "when":"7/13/2013"},
+          { "employer":"Hillsborough Community College", "emptype":"Public", "actiondetail":"Cut hours of some part-time faculty members", "jobsimpacted":100, "when":"7/13/2013"},
+          { "employer":"St. Petersburg College", "emptype":"Public", "actiondetail":"Capped courseloads for adjunct facutly to equivalent of 27 hours per week", "jobsimpacted":91, "when":"7/13/2013"},
+          { "employer":"Palm Beach State College", "emptype":"Public", "actiondetail":"Cut hours for 100 part-timers to 27.5 per week; 895 adjuncts limited to 60% of a full-time course load", "jobsimpacted":200, "when":"6/13/2013"},
+          { "employer":"Santa Fe College", "emptype":"Public", "actiondetail":"Capped part-time hours at 27.5 per week and enforced limits on adjunct course loads", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Tallahassee Community College", "emptype":"Public", "actiondetail":"Cut hours of some part-time workers to as low as 24 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Daytona State College", "emptype":"Public", "actiondetail":"Reduced hours for adjunct faculty", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Miami Dade College", "emptype":"Public", "actiondetail":"Enforcing cap of 25 hours per week for part-time workers", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Boca Raton", "emptype":"Public", "actiondetail":"Cut hours for part-timers to 25 per week.", "jobsimpacted":55, "when":"12/12/2013"},
+          { "employer":"RREMC Restaurants (Denny's franchisee)", "emptype":"Private", "actiondetail":"Cut hours for part-time workers to 28 per week", "jobsimpacted":55, "when":"11/12/2013"}]},
+
+      {"name": "Georgia", "size":520, "leaning":25.8, "detail":[
+          { "employer":"Georgia Military College", "emptype":"Public", "actiondetail":"Cut hours of adjunct faculty to below 30 per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Cherokee County School Board", "emptype":"Public", "actiondetail":"Outsourced custodial services and ground maintenance", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Circle K Southeast", "emptype":"Private", "actiondetail":"Cut hours of some full-time employees below 30", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"AAA Parking", "emptype":"Private", "actiondetail":"Moved half of full-time workers to part-time", "jobsimpacted":250, "when":"3/13/2013"},
+          { "employer":"Columbus", "emptype":"Public", "actiondetail":"Capped hours for part-time and seasonal employees at 29 per week", "jobsimpacted":55, "when":"1/13/2013"},
+          { "employer":"PMTD Restaurants LLC (a franchisee of KFC)", "emptype":"Private", "actiondetail":"Cutting hours for part-timers working 30 hours or slightly above", "jobsimpacted":55, "when":"10/12/2013"}]},
+
+      {"name": "Idaho", "size":55, "leaning":30.1, "detail":[
+          { "employer":"Boundary County", "emptype":"Public", "actiondetail":"Cut hours for part-timers to fewer than 30 per week", "jobsimpacted":55, "when":"7/13/2013"}]},
+
+      {"name": "Illinois", "size":682, "leaning":10.5, "detail":[
+          { "employer":"Palmer Place Restaurant", "emptype":"Private", "actiondetail":"Cut hours for some workers below 30 per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Southern Illinois University", "emptype":"Public", "actiondetail":"Limited graduate teaching assistants to 20 hours per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Vcm Inc. (Subway franchisee)", "emptype":"Private", "actiondetail":"Reduced hours for hourly wage earners to below 30 per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Parkland College", "emptype":"Public", "actiondetail":"Limited hours for part-time, non-teaching employees to 27.5 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"College of DuPage", "emptype":"Public", "actiondetail":"Cut course loads for some adjunct faculty", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"McHenry County College", "emptype":"Public", "actiondetail":"Cut course loads for adjunct faculty to 24 hours per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Moraine Valley Community College", "emptype":"Public", "actiondetail":"Cutting course loads for adjunct faculty", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Elmhurst College", "emptype":"Private", "actiondetail":"Cut two courses per semester from maximum adjunct teaching load", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Boone Community School District", "emptype":"Public", "actiondetail":"Cut hours of part-time employees below 30 per week", "jobsimpacted":30, "when":"3/13/2013"},
+          { "employer":"Joliet Junior College", "emptype":"Public", "actiondetail":"Cut course loads for adjunct faculty", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Illinois Valley Community College", "emptype":"Public", "actiondetail":"Capped hours for part-timers at 29 per week", "jobsimpacted":55, "when":"1/13/2013"},
+          { "employer":"Rock Valley College", "emptype":"Public", "actiondetail":"Capped hours for part-time workers at 25 per week", "jobsimpacted":55, "when":"12/12/2013"},
+          { "employer":"Jimmy John's Gourmet Sandwiches", "emptype":"Private", "actiondetail":"Cutting hours for part-timers below 30 per week", "jobsimpacted":55, "when":"10/12/2013"},
+          { "employer":"Plainfield Park District", "emptype":"Public", "actiondetail":"Cut work hours to 27 per week for four part-time workers", "jobsimpacted":4, "when":"6/12/2013"}]},
+
+      {"name": "Indiana", "size":3114, "leaning":23.4, "detail":[
+          { "employer":"Vincennes", "emptype":"Public", "actiondetail":"Cut hours of part-timers to 29 per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Ball State University", "emptype":"Public", "actiondetail":"Limited work hours for graduate assistants", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Hancock County", "emptype":"Public", "actiondetail":"Capped hours for part-time workers at 29 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Morgan County", "emptype":"Public", "actiondetail":"Cut part-time hours from a maximum of 35 to 28 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Clay County", "emptype":"Public", "actiondetail":"Capped part-time work at 28 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"DeKalb County", "emptype":"Public", "actiondetail":"Limited part-timers to 28 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Eastbrook Community Schools", "emptype":"Public", "actiondetail":"Cut hours for instructional aides to 29.5 per week from between 32.5 and 35.", "jobsimpacted":39, "when":"6/13/2013"},
+          { "employer":"Floyd County", "emptype":"Public", "actiondetail":"Cutting hours for up to 72 part-timers to 28 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Highland", "emptype":"Public", "actiondetail":"Limited hours part-time employees can work to fewer than 30 per week; suspended limit due to employer mandate delay", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Indiana University", "emptype":"Public", "actiondetail":"Capped hours for part-timers at 29 per week; outsourced 50 maintenance personnel", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Ivy Tech Community College", "emptype":"Public", "actiondetail":"Limited hours for adjunct faculty at 23 campuses to avoid estimated $10 million in Affordable Care Act costs for those who work 30 or more hours", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Kosciusko County", "emptype":"Public", "actiondetail":"Capped part-time hours at 25 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Lakeview Christian School", "emptype":"Private", "actiondetail":"Limited new part-timers to 29 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Madison Consolidated Schools", "emptype":"Public", "actiondetail":"Cut hours for cafeteria workers, instructional aides and bus drivers below 30 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Madison-Grant United School Corp.", "emptype":"Public", "actiondetail":"Cut hours for non-certified staff from up to 35 hours per week to below 30", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Marshall County", "emptype":"Public", "actiondetail":"Cut hours for part-times to 28 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Mississinewa Community Schools", "emptype":"Public", "actiondetail":"Cut 15 minutes per day for three teacher aides", "jobsimpacted":3, "when":"6/13/2013"},
+          { "employer":"Perry Central School Corp.", "emptype":"Public", "actiondetail":"Cut hours of part-time instructional assistants by 6 per week, with offsetting wage hike", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Shelbyville Central School System", "emptype":"Public", "actiondetail":"Cut hours instructional aides, substitute teachers, bus drivers and coaches below 30 per week", "jobsimpacted":100, "when":"6/13/2013"},
+          { "employer":"Speedway Schools", "emptype":"Public", "actiondetail":"Cut hours for teaching assistants to 29 per week with offsetting pay hike", "jobsimpacted":30, "when":"6/13/2013"},
+          { "employer":"Starke County", "emptype":"Public", "actiondetail":"Cut hours for part-timers to maximum of 130 per month", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Wolfe’s Auto Auction", "emptype":"Private", "actiondetail":"Some full-time workers cut to part-time; part-time hours capped at 28 per week", "jobsimpacted":10, "when":"6/13/2013"},
+          { "employer":"Eminence Community Schools", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 29 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Lafayette School Corp.", "emptype":"Public", "actiondetail":"Cut part-time hours below 30 per week", "jobsimpacted":235, "when":"6/13/2013"},
+          { "employer":"Martin County", "emptype":"Public", "actiondetail":"Capped part-time hours at 28 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Benton Community Schools", "emptype":"Public", "actiondetail":"Cut hours for uninsured part-timers to fewer than 30 per week with offsetting pay hike", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Eastern Hancock School Board", "emptype":"Public", "actiondetail":"Limit most non-contract employees who worked 30 to 39 hours per week to 29.", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Fayette County School Corp.", "emptype":"Public", "actiondetail":"Cut hours for some part-timers to 27.5 per week", "jobsimpacted":90, "when":"5/13/2013"},
+          { "employer":"Fort Wayne Community Schools", "emptype":"Public", "actiondetail":"Cut hours of part-time teaching aides and cafeteria workers from 30 to 25 per week", "jobsimpacted":610, "when":"5/13/2013"},
+          { "employer":"Gibson County", "emptype":"Public", "actiondetail":"Cut part-time hours from a maximum of 40 to 23.5 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Greencastle Community Schools", "emptype":"Public", "actiondetail":"Cut hours of instructional aides and cafeteria workers to 29.5 per week", "jobsimpacted":54, "when":"5/13/2013"},
+          { "employer":"Hancock Madison Shelby Educational Services", "emptype":"Public", "actiondetail":"Cut hours for special ed assistants from 35-37.5 per week to 28", "jobsimpacted":48, "when":"5/13/2013"},
+          { "employer":"Tipton County", "emptype":"Public", "actiondetail":"Cut maximum number of hours to 28 per week from 32", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Vigo County School Corp.", "emptype":"Public", "actiondetail":"Cut hours of non-certified employees below 30 per week, leading to sharp cut-backs in field trips; suspended hour cuts in response to delay of employer mandate", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"White River Valley School District", "emptype":"Public", "actiondetail":"Cut hours of non-certified employees from 30 to 29 per week", "jobsimpacted":11, "when":"5/13/2013"},
+          { "employer":"Zionsville Community Schools", "emptype":"Public", "actiondetail":"Cut hours for instructional aides, coaches, and substitutes to a maximum of 29 per week", "jobsimpacted":100, "when":"5/13/2013"},
+          { "employer":"Crawford County", "emptype":"Public", "actiondetail":"Lowered cap on part-time hours from 32 to 29 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Vanderburgh County", "emptype":"Public", "actiondetail":"Lowered cap on part-time hours from 39 to 29 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"North Putnam Community Schools", "emptype":"Public", "actiondetail":"Cut hours of noncertified employees to a maximum of 29 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Northwestern School Corp.", "emptype":"Public", "actiondetail":"Cut hours of instructional assistants to 25 per week", "jobsimpacted":12, "when":"5/13/2013"},
+          { "employer":"Taylor Community Schools", "emptype":"Public", "actiondetail":"Cut hours of cafeteria workers, custodians and teaching aides to 28 per week", "jobsimpacted":31, "when":"5/13/2013"},
+          { "employer":"Bartholomew County", "emptype":"Public", "actiondetail":"Cut part-time hours to 28 hours per week", "jobsimpacted":40, "when":"4/13/2013"},
+          { "employer":"Delaware County", "emptype":"Public", "actiondetail":"Limited part-time employees to 29 hours per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Northwestern Consolidated School District", "emptype":"Public", "actiondetail":"Cut part-time hours to a maximum of 29 per week", "jobsimpacted":41, "when":"4/13/2013"},
+          { "employer":"Richland-Bean Blossom Community School Corp.", "emptype":"Public", "actiondetail":"Instructional aides limited to 29.5 hours per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Eastern Greene Schools", "emptype":"Public", "actiondetail":"Cut hours for hourly employees, such as teaching aides, custodians and bus drivers to a maximum of 28 per week", "jobsimpacted":40, "when":"4/13/2013"},
+          { "employer":"Putnam County", "emptype":"Public", "actiondetail":"Cut hours for part-time workers to maximum of 29 per week", "jobsimpacted":55, "when":"2/13/2013"}]},
+
+      {"name": "Iowa", "size":340, "leaning":20.2, "detail":[
+          { "employer":"Lee County", "emptype":"Public", "actiondetail":"Enforced existing part-time cap of 28 hours per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Spencer Community School District", "emptype":"Public", "actiondetail":"Reduced hours for some part-timers from 32 to below 30 per week", "jobsimpacted":65, "when":"6/13/2013"},
+          { "employer":"Indianola Community School District", "emptype":"Public", "actiondetail":"Part-time hours cut for up to 125 below 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Tama County", "emptype":"Public", "actiondetail":"Cut hours for part-time employees to less than 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Clear Lake School Board", "emptype":"Public", "actiondetail":"Outsourced provision of substitute teachers and paraprofessionals", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Cedar Falls", "emptype":"Public", "actiondetail":"Cut part-time hours from 32 per week to 29", "jobsimpacted":59, "when":"11/12/2013"}]},
+
+      {"name": "Kansas", "size":74, "leaning":21.6, "detail":[
+          { "employer":"Salina Family YMCA", "emptype":"Private", "actiondetail":"Cut part-time employee schedules to a maximum of 25 hours per week", "jobsimpacted":20, "when":"9/13/2013"},
+          { "employer":"Kansas Turnpike Authority", "emptype":"Public", "actiondetail":"Toll collectors limited to 24 hours per week; up to 93 will see hours cut", "jobsimpacted":55, "when":"5/13/2013"}]},
+
+      {"name": "Kentucky", "size":74, "leaning":20.0, "detail":[
+          { "employer":"Lexington Board of Education", "emptype":"Public", "actiondetail":"Cut hours of some part-timers to 28.5 per week, providing offsetting raise", "jobsimpacted":20, "when":"6/13/2013"},
+          { "employer":"Joe Bologna's Italian Pizzeria & Restaurant", "emptype":"Private", "actiondetail":"Closed for business on Monday, reducing employees to fall below 50 full-time-equivalent threshold", "jobsimpacted":55, "when":"4/13/2013"}]},
+
+      {"name": "Maine", "size":50, "leaning":11.3, "detail":[
+          { "employer":"Mainesubway (Subway franchisee)", "emptype":"Private", "actiondetail":"Reduced worker hours to no more than 29 per week", "jobsimpacted":50, "when":"8/13/2013"}]},
+
+      {"name": "Maryland", "size":256, "leaning":5.2, "detail":[
+          { "employer":"Howard Community College", "emptype":"Public", "actiondetail":"Lowered limit on course loads and hours worked for adjunct faculty", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Republic Foods (Burger King franchise operator)", "emptype":"Private", "actiondetail":"All new hires capped at 29 hours per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Ocean City", "emptype":"Public", "actiondetail":"Reduced hours for part-time workers to a maximum of 28 per week", "jobsimpacted":40, "when":"4/13/2013"},
+          { "employer":"Royal Farms convenience stores", "emptype":"Private", "actiondetail":"Cut hours for most full-time and part-time workers below 30 per week", "jobsimpacted":55, "when":"12/12/2013"},
+          { "employer":"Chesapeake College", "emptype":"Public", "actiondetail":"Capped adjunct faculty hours at 28 per week", "jobsimpacted":55, "when":"12/12/2013"}]},
+
+      {"name": "Michigan", "size":1079, "leaning":12.4, "detail":[
+          { "employer":"Auburn Hills", "emptype":"Public", "actiondetail":"Reduced hours for part-time, seasonal workers to fewer than 30 per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Meridian Public Schools", "emptype":"Public", "actiondetail":"Cut schedules of hourly workers to fewer than 30 hours per week", "jobsimpacted":15, "when":"9/13/2013"},
+          { "employer":"Central Michigan University", "emptype":"Public", "actiondetail":"Limited hours for student workers to 25 per week", "jobsimpacted":140, "when":"7/13/2013"},
+          { "employer":"Delta County", "emptype":"Public", "actiondetail":"Capped part-time hours at 29 per week; made temporary exemption for corrections officers after mandate delay", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Kenowa Hills Public Schools", "emptype":"Public", "actiondetail":"Outsourced school bus transportation, partly to avoid providing health benefits to 30 drivers", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Russ' Restaurant", "emptype":"Private", "actiondetail":"Cut hours of non-managing employees to maximum of 25 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Baldwin Public Library", "emptype":"Public", "actiondetail":"Capped part-time hours at 28 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Birmingham", "emptype":"Public", "actiondetail":"Cut seasonal employee hours below average of 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Dearborn", "emptype":"Public", "actiondetail":"Capped hours of part-time and seasonal employees at average of 28 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Iosco County", "emptype":"Public", "actiondetail":"apped hours of part-time employees at 28 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Tuscola County", "emptype":"Public", "actiondetail":"Capped part-time hours at less than 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Kalamazoo Valley Community College", "emptype":"Public", "actiondetail":"Reduced maximum hours for part-time faculty", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"St. Clair Community College", "emptype":"Public", "actiondetail":"Limited hours of adjunct professors and part-time support staff to fewer than 30 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Portage", "emptype":"Public", "actiondetail":"Capped part-time hours at 28 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Vassar Public Schools", "emptype":"Public", "actiondetail":"Cut hours for food-service workers to maximum of 29 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Van Buren Township", "emptype":"Public", "actiondetail":"Capped part-time hours at 29 per week", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Milford Township", "emptype":"Public", "actiondetail":"Cut hours for part-timers to 28 per week", "jobsimpacted":55, "when":"1/13/2013"},
+          { "employer":"New Baltimore", "emptype":"Public", "actiondetail":"Cut hours for part-timers, including police cadets, to 28 per week", "jobsimpacted":55, "when":"1/13/2013"},
+          { "employer":"Kga Group (Subway franchisee)", "emptype":"Private", "actiondetail":"Part-time hours cut below 30 per week", "jobsimpacted":60, "when":"11/12/2013"}]},
+
+      {"name": "Minnesota", "size":78, "leaning":10.2, "detail":[
+          { "employer":"Faribault", "emptype":"Public", "actiondetail":"Cut hours of employees working 30-to-38 hours per week to 29; temporarily delayed move due to delay of employer mandate", "jobsimpacted":4, "when":"6/13/2013"},
+          { "employer":"Hayfield Community Schools", "emptype":"Public", "actiondetail":"Cut hours of paraprofessionals to fewer than 30 per week, with $1/hr raise; rescinded policy after mandate delay", "jobsimpacted":20, "when":"6/13/2013"},
+          { "employer":"Mankato", "emptype":"Public", "actiondetail":"Limited part-time hours to 29 per week.", "jobsimpacted":55, "when":"3/13/2013"}]},
+
+      {"name": "Missouri", "size":216, "leaning":20.6, "detail":[
+          { "employer":"Three Rivers College", "emptype":"Public", "actiondetail":"Capped teaching loads for adjunct faculty", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Drury University", "emptype":"Private", "actiondetail":"Limited adjunct course loads", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Maritz Research", "emptype":"Private", "actiondetail":"Cut part-time hours to 25 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Moberly Area Community College", "emptype":"Public", "actiondetail":"Reduced number of courses adjunct faculty are eligible to teach.", "jobsimpacted":55, "when":"4/13/2013"}]},
+
+      {"name": "Nebraska", "size":706, "leaning":25.7, "detail":[
+          { "employer":"Blair Community Schools", "emptype":"Public", "actiondetail":"Cut hours for bus drivers and teacher aides to no more than 29 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Plattsmouth Board of Education", "emptype":"Public", "actiondetail":"Capped hours of non-certified employees at 29 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Douglas County West Community Schools", "emptype":"Public", "actiondetail":"Cut part-time shifts by about 45 minutes a day", "jobsimpacted":12, "when":"5/13/2013"},
+          { "employer":"Papillion-La Vista school district", "emptype":"Public", "actiondetail":"Cut part-time hours below 30 per week", "jobsimpacted":281, "when":"5/13/2013"},
+          { "employer":"Westside Community Schools", "emptype":"Public", "actiondetail":"Capped hours of most part-time employees below 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Ralston School District", "emptype":"Public", "actiondetail":"Cut hours for paraprofessionals to below 30 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Springfield Platteview Community Schools", "emptype":"Public", "actiondetail":"Cut 7.5 hour days to less than 6 hours for paraprofessionals", "jobsimpacted":43, "when":"4/13/2013"},
+          { "employer":"Cutchall Management restaurant company", "emptype":"Private", "actiondetail":"Capped new part-time hires at 28 hours per week; lifted cap after delay of employer mandate", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Omega Foods Inc. (Wendy's franchisee)", "emptype":"Private", "actiondetail":"Cut hours to 28 per week for non-management", "jobsimpacted":100, "when":"1/13/2013"}]},
+
+      {"name": "New Hampshire", "size":55, "leaning":11.0, "detail":[
+          { "employer":"Community College System of New Hampshire", "emptype":"Public", "actiondetail":"Capped adjunct faculty hours at 27 per week", "jobsimpacted":55, "when":"4/13/2013"}]},
+
+      {"name": "New Jersey", "size":1347, "leaning":5.5, "detail":[
+          { "employer":"Middletown Township Public Schools", "emptype":"Public", "actiondetail":"Cut hours for paraprofessionals below 30 per week", "jobsimpacted":178, "when":"9/13/2013"},
+          { "employer":"Tom's River", "emptype":"Public", "actiondetail":"Will cut part-time hours to 25 per week, effective July 2014", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Bergen Community College", "emptype":"Public", "actiondetail":"Limited adjunct course loads", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"NEMF trucking company", "emptype":"Private", "actiondetail":"Cut hours for dock workers and customer service reps from 33 per week to a maximum of 29", "jobsimpacted":400, "when":"7/13/2013"},
+          { "employer":"City of Burlington Public Schools", "emptype":"Public", "actiondetail":"Outsourced provision of paraprofessionals and substitute teachers", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Little Falls Board of Education", "emptype":"Public", "actiondetail":"Capped hours of paraprofessionals below 30 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Pompton Lakes Board of Education", "emptype":"Public", "actiondetail":"Cut hours for instructional aides below 30 per week, with offsetting pay hike", "jobsimpacted":48, "when":"6/13/2013"},
+          { "employer":"Sparta Area Schools", "emptype":"Public", "actiondetail":"Cut hours for paraprofessionals below 30 per week; postponed cuts after one-year delay of employer mandate", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Hanover Township", "emptype":"Public", "actiondetail":"Cut part-time hours to a maximum of 28 per week; rescinded rule after delay of mandate", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Middletown Township", "emptype":"Public", "actiondetail":"Cut part-time hours to fewer than 30 per week", "jobsimpacted":25, "when":"5/13/2013"},
+          { "employer":"Franklin Township Board of Education", "emptype":"Public", "actiondetail":"Voted to outsource school aides and child study team services", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Clinton-Glen Gardner School District", "emptype":"Public", "actiondetail":"Cut hours for paraprofessionals from 35 to 28 per week; in July a judge ordered the board to rescind its action", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Mount Ephraim Board of Education", "emptype":"Public", "actiondetail":"Cut paraprofessionals’ hours from 6 per day to 5.5", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Kean University", "emptype":"Public", "actiondetail":"Cut adjunct course loads", "jobsimpacted":210, "when":"11/12/2013"}]},
+
+      {"name": "New Mexico", "size":55, "leaning":15.5, "detail":[
+          { "employer":"New Mexico State University", "emptype":"Public", "actiondetail":"Capped graduate-student work hours at 25 per week", "jobsimpacted":55, "when":"5/13/2013"}]},
+
+      {"name": "New York", "size":236, "leaning":4.0, "detail":[
+          { "employer":"Finger Lakes Community College", "emptype":"Public", "actiondetail":"Capped course loads for adjunct faculty", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Waldbaum's Supermarket", "emptype":"Private", "actiondetail":"Cut hours and health care for most full-time employees below 30 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Hudson Valley Community College", "emptype":"Public", "actiondetail":"Cut hours of part-time faculty", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"CY Farms", "emptype":"Private", "actiondetail":"Eliminated 20 jobs to stay below 50 full-time-equivalent threshold", "jobsimpacted":20, "when":"2/13/2013"},
+          { "employer":"Bowlmor Lanes", "emptype":"Private", "actiondetail":"Plan to shift some full-time workers to part-time and limit hours to fewer than 30 per week", "jobsimpacted":55, "when":"3/11/2013"}]},
+
+      {"name": "North Carolina", "size":324, "leaning":20.9, "detail":[
+          { "employer":"Forsyth Technical Community College", "emptype":"Public", "actiondetail":"Reduced hours for adjunct faculty to below 30 per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Wilkes Community College", "emptype":"Public", "actiondetail":"Reduced teaching loads for adjunct faculty to below 30 hours per week and had to cut some courses as a result", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Henderson", "emptype":"Public", "actiondetail":"Limited hours part-timers can work to less than 30 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Rutherford County", "emptype":"Public", "actiondetail":"Lowered cap on part-time hours from 37 to 29 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Carlie C’s", "emptype":"Private", "actiondetail":"Cut part-time hours below 30 per week for up to 150 workers", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Five Guys Burgers and Fries franchise", "emptype":"Private", "actiondetail":"Plans to cut hours or positions among 60 workers clocking more than 30 hours per week", "jobsimpacted":55, "when":"3/13/2013"}]},
+
+      {"name": "Ohio", "size":1704, "leaning":18.1, "detail":[
+          { "employer":"White Castle", "emptype":"Private", "actiondetail":"Will limit new hires to part-time", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Lake Township", "emptype":"Public", "actiondetail":"Capped part-time hours at 28.8 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Lebanon City", "emptype":"Public", "actiondetail":"Cut hours of part-time firefighters/paramedics", "jobsimpacted":18, "when":"6/13/2013"},
+          { "employer":"Mason", "emptype":"Public", "actiondetail":"Cut part-time workers to 20 hours per week", "jobsimpacted":200, "when":"6/13/2013"},
+          { "employer":"Scrambler Marie's Restaurants", "emptype":"Private", "actiondetail":"Cut some workers' hours to less than 30 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Westlake", "emptype":"Public", "actiondetail":"Limit part-timers to 25 hours per week", "jobsimpacted":23, "when":"6/13/2013"},
+          { "employer":"Sinclair Community College", "emptype":"Public", "actiondetail":"Reduced hours for part-timers to maximum of 28 per week and cut course loads for adjunct faculty", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Tipp City", "emptype":"Public", "actiondetail":"Cut hours for part-timers to fewer than 30 per week", "jobsimpacted":18, "when":"5/13/2013"},
+          { "employer":"Cuyahoga Community College", "emptype":"Public", "actiondetail":"Capped hours for 1,559 part-timers at 20 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"University of Akron", "emptype":"Public", "actiondetail":"Cut course loads for part-time faculty", "jobsimpacted":230, "when":"4/13/2013"},
+          { "employer":"Upper Arlington City School District", "emptype":"Public", "actiondetail":"Cutting hours for aides who work with disabled students from 32.5 per week to 28", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Columbus State Community College", "emptype":"Public", "actiondetail":"Reduced hours for adjunct faculty and hourly wage earners to fewer than 30 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Akron", "emptype":"Public", "actiondetail":"Limiting part-timers to fewer than 30 hours per week.", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Baldwin-Wallace University", "emptype":"Private", "actiondetail":"Limited course load of adjunct faculty", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Kent State University", "emptype":"Public", "actiondetail":"Limited course load of adjunct faculty", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Lakeland Community College", "emptype":"Public", "actiondetail":"Limited course loads for adjunct faculty", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Youngstown City Schools", "emptype":"Public", "actiondetail":"Cut part-time and substitute hours to 25 per week", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Bowling Green State University", "emptype":"Public", "actiondetail":"Capped part-time hours at 24 per week and student work hours at 28", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Medina City Schools", "emptype":"Public", "actiondetail":"Cut weekly hours for cafeteria workers and teacher aides from 30 to 28.75 per week", "jobsimpacted":16, "when":"3/13/2013"},
+          { "employer":"Fairview Park", "emptype":"Public", "actiondetail":"Cut hours of part-time employees to fewer than 30 per week", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Shawnee State University", "emptype":"Public", "actiondetail":"Reduced maximum teaching load for adjunct faculty", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Brunswick", "emptype":"Public", "actiondetail":"Capped hours for part-time employees at 28 per week and limited length of employment for seasonal workers", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Medina", "emptype":"Public", "actiondetail":"Cut part-time hours from about 35 to 29 per week", "jobsimpacted":65, "when":"2/13/2013"},
+          { "employer":"Tallmadge", "emptype":"Public", "actiondetail":"Cut hours part-timers can work to 29 per week", "jobsimpacted":55, "when":"1/13/2013"},
+          { "employer":"Fairlawn", "emptype":"Public", "actiondetail":"Lowered limit on part-time hours from 35 per week to less than 30", "jobsimpacted":55, "when":"12/12/2013"},
+          { "employer":"Sugarcreek Township", "emptype":"Public", "actiondetail":"Capped hours at 28 per week and eliminated paid time off for part-timers", "jobsimpacted":55, "when":"12/12/2013"},
+          { "employer":"Stark State College", "emptype":"Public", "actiondetail":"Capped hours of adjunct faculty at 29 per week", "jobsimpacted":55, "when":"11/12/2013"},
+          { "employer":"Youngstown State University", "emptype":"Public", "actiondetail":"Capped hours of part-time employees and adjunct faculty", "jobsimpacted":55, "when":"11/12/2013"}]},
+
+      {"name": "Oklahoma", "size":55, "leaning":29.5, "detail":[
+          { "employer":"Treadwell Enterprises (Taco Bell franchise operator)", "emptype":"Private", "actiondetail":"Reduced hours for some full-time workers to part-time", "jobsimpacted":55, "when":"1/13/2013"}]},
+
+      {"name": "Oregon", "size":55, "leaning":3.7, "detail":[
+          { "employer":"Shari's restaurants", "emptype":"Private", "actiondetail":"Adding part-time workers, cutting hours for some working more than 30 hours per week", "jobsimpacted":55, "when":"7/13/2013"}]},
+
+      {"name": "Pennsylvania", "size":1528, "leaning":15.2, "detail":[
+          { "employer":"Friendship Community (group home for adults with disabilities)", "emptype":"Private", "actiondetail":"Cut part-time hours below 30 per week", "jobsimpacted":20, "when":"9/13/2013"},
+          { "employer":"Hollywood Casino", "emptype":"Private", "actiondetail":"Cut part-timers to fewer than 30 hours per week", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Philadelphia University", "emptype":"Private", "actiondetail":"Capped hours for adjunct faculty at fewer than 30 per week, effective 2015", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Carnegie Museum", "emptype":"Private", "actiondetail":"Reduced hours for some part-time employees below 30 per week", "jobsimpacted":48, "when":"7/13/2013"},
+          { "employer":"Lawrence County", "emptype":"Public", "actiondetail":"Capped part-time hours at 28 per week; later reversed move for deputies", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"East Penn School District", "emptype":"Public", "actiondetail":"Reduced hours for 11 food service workers to 29.75 per week", "jobsimpacted":11, "when":"6/13/2013"},
+          { "employer":"Southern Lehigh School District", "emptype":"Public", "actiondetail":"Cut hours of 51 part-time employees to under 30 per week", "jobsimpacted":51, "when":"6/13/2013"},
+          { "employer":"Tredyffrin-Easttown School District", "emptype":"Public", "actiondetail":"Cut hours for part-time aides and paraprofessionals to 27.5 per week; suspended cuts due to employer mandate delay", "jobsimpacted":135, "when":"6/13/2013"},
+          { "employer":"Brandywine Heights Area School District", "emptype":"Public", "actiondetail":"Outsourced instructional aides working 30 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Ephrata Area School District", "emptype":"Public", "actiondetail":"Capped hours of part-time workers below 30 per week.", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Dallas School District", "emptype":"Public", "actiondetail":"Capped hours for teacher aides at fewer than 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"General McLane School District", "emptype":"Public", "actiondetail":"Capped part-time hours below 30 per week, affecting secretaries, instructional and library aides, and cafeteria and custodial workers", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Firstaff Nursing Services Inc.", "emptype":"Private", "actiondetail":"Plans to cut full-time nurses and nursing assistantsto part-time and hire more part-timers", "jobsimpacted":100, "when":"4/13/2013"},
+          { "employer":"Lancaster County School District", "emptype":"Public", "actiondetail":"Outsourced 100 of classroom aides and food service workers to a private company", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Penn Manor School District", "emptype":"Public", "actiondetail":"Outsourced 96 special-ed aides plus provision of substitute teachers to a private firm", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Susquenita School District", "emptype":"Public", "actiondetail":"Cut part-time hours from 30 per week to 29.5", "jobsimpacted":61, "when":"4/13/2013"},
+          { "employer":"Lori’s Angels home care", "emptype":"Private", "actiondetail":"Cut hours of part-time workers to 29.5 and shifted to only hiring part-time", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Carnegie Library of Pittsburgh", "emptype":"Public", "actiondetail":"Capped part-time hours at 29 per week", "jobsimpacted":55, "when":"3/13/2013"},
+          { "employer":"Lancaster County", "emptype":"Public", "actiondetail":"Limited part-time hours to a maximum of 29 per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Community College of Allegheny County", "emptype":"Public", "actiondetail":"Cut hours for adjunct faculty and other part-time employees", "jobsimpacted":400, "when":"11/12/2013"},
+          { "employer":"West Perry School District", "emptype":"Public", "actiondetail":"Limit new instructional aides to 27.5 hours per week", "jobsimpacted":55, "when":"1/11/2013"}]},
+
+      {"name": "South Carolina", "size":198, "leaning":26.6, "detail":[
+          { "employer":"Tsunami Surf Shops", "emptype":"Private", "actiondetail":"Will limit workers to fewer than 30 hours per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Kelly Professional Cleaning Services", "emptype":"Private", "actiondetail":"ObamaCare employer penalties 'will have to be recovered from existing employees in the reduction of hours, wage rates and layoffs'", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Spartanburg Community College", "emptype":"Public", "actiondetail":"Cut hours for most adjunct faculty below 30", "jobsimpacted":90, "when":"6/13/2013"}]},
+
+      {"name": "Tennessee", "size":455, "leaning":26.3, "detail":[
+          { "employer":"Oneida Special School District", "emptype":"Public", "actiondetail":"Cut most non-certified employees to 29 hours per week, but kept pay the same", "jobsimpacted":65, "when":"7/13/2013"},
+          { "employer":"Scott County School System", "emptype":"Public", "actiondetail":"Capped hours of new non-certified hires below 30 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Stewart County School System", "emptype":"Public", "actiondetail":"Reduced hours for school support staff to 28 per week", "jobsimpacted":120, "when":"7/13/2013"},
+          { "employer":"Cumberland University", "emptype":"Private", "actiondetail":"Capped course loads for adjunct faculty at 27 hours per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Regal Entertainment Group", "emptype":"Private", "actiondetail":"Operator of 500+ movie theaters cut non-salaried worker hours below 30 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Wytheville Town Council", "emptype":"Public", "actiondetail":"Reduced limit on part-time hours from 39 per week to 28", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Washington County", "emptype":"Public", "actiondetail":"Reduced hours for part-timers to fewer than 30 per week", "jobsimpacted":55, "when":"2/13/2013"}]},
+
+      {"name": "Texas", "size":693, "leaning":23.2, "detail":[
+          { "employer":"Sam Houston State University", "emptype":"Public", "actiondetail":"Limited student work hours to 29 per week, impacting multiple-job holders", "jobsimpacted":55, "when":"9/13/2013"},
+          { "employer":"Consolidated Restaurant Operations Inc", "emptype":"Private", "actiondetail":"Limiting hours for new employees", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Dave & Buster's", "emptype":"Private", "actiondetail":"Cut hours of some employees to 28 per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Jim's Restaurants", "emptype":"Private", "actiondetail":"Intends to reduce hours of some workers; put plan on hold due to employer mandate delay", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Bee County", "emptype":"Public", "actiondetail":"Reduce part-time employee hours to 24 per week.", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Lion & Rose British Restaurant and Pub", "emptype":"Private", "actiondetail":"Cut hourly full-time workers' schedules to 28 hours per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"MTC Inc. restaurant management", "emptype":"Private", "actiondetail":"Shifted to only hiring part-time workers", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Matagorda County", "emptype":"Public", "actiondetail":"Cut hours part-timer can work from 40 per week to 29", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Wilson County", "emptype":"Public", "actiondetail":"Cut part-timers to a maximum of 29 hours per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Texas Christian University", "emptype":"Private", "actiondetail":"Reduced hours for adjunct faculty and part-time employees, including students, to fewer than 30 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Dallas County Community College District", "emptype":"Public", "actiondetail":"Capped courseloads for 2,500 adjunct faculty members", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Plano", "emptype":"Public", "actiondetail":"Cut part-time hours below 30 per week", "jobsimpacted":45, "when":"5/13/2013"},
+          { "employer":"Pillar Hotels & Resorts", "emptype":"Private", "actiondetail":"Stepped up hiring of part-time workers among its 5,500 employees", "jobsimpacted":55, "when":"11/12/2013"}]},
+
+      {"name": "Utah", "size":2170, "leaning":31.8, "detail":[
+          { "employer":"Millard School District", "emptype":"Public", "actiondetail":"Cut hours for paraprofessionals from 6 to 5.75 per day", "jobsimpacted":6, "when":"7/13/2013"},
+          { "employer":"Murray School District", "emptype":"Public", "actiondetail":"Cut part-time hours to a maximum of 20 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Nebo School District", "emptype":"Public", "actiondetail":"Cut hours for part-timers to 28.75 per week and stop providing insurance for some", "jobsimpacted":40, "when":"6/13/2013"},
+          { "employer":"Southern Utah Unversity", "emptype":"Public", "actiondetail":"Limited hourly workers, including students, to 20 hours per week and capped adjunct teaching loads", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Alpine School District", "emptype":"Public", "actiondetail":"Cut part-time hours to a maximum of 27.5 per week, avoiding $4.2 million cost", "jobsimpacted":800, "when":"5/13/2013"},
+          { "employer":"Deseret Industries (work training for war refugees)", "emptype":"Private", "actiondetail":"Cut hours of most workers below 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Cedar City", "emptype":"Public", "actiondetail":"Capped hours for part-timers and seasonal workers at 28 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Brigham Young University", "emptype":"Private", "actiondetail":"Capped hours for part-timers, including students, at an average of 29 per week.", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Granite School District", "emptype":"Public", "actiondetail":"Cut hours for part-time school support staff to below 30 per week", "jobsimpacted":1000, "when":"3/13/2013"},
+          { "employer":"Utah Valley University", "emptype":"Public", "actiondetail":"Limited hourly workers to a maximum of 28 hours per week and capped adjunct teaching loads", "jobsimpacted":55, "when":"2/13/2013"}]},
+
+      {"name": "Virginia", "size":9908, "leaning":18.4, "detail":[
+          { "employer":"K-VA-T Food Stores", "emptype":"Private", "actiondetail":"Capped hours for part-time employees at under 30 per week", "jobsimpacted":55, "when":"8/13/2013"},
+          { "employer":"Christoper Savvides restaurant & catering co.", "emptype":"Private", "actiondetail":"Stopped hiring full-time and limited part-timers’ hours", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Henrico Country School District", "emptype":"Public", "actiondetail":"Limit hours for part-timers and temps to 29 per week", "jobsimpacted":55, "when":"6/13/2013"},
+          { "employer":"Lynchburg", "emptype":"Public", "actiondetail":"Cut hours for part-timers from about 32 per week to 28", "jobsimpacted":35, "when":"6/13/2013"},
+          { "employer":"Rappahannock Area Community Services Board", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 29 per week", "jobsimpacted":45, "when":"6/13/2013"},
+          { "employer":"Wise County School Board", "emptype":"Public", "actiondetail":"Limit hours for part-time workers to fewer than 30 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Campbell County Social Services Dept.", "emptype":"Public", "actiondetail":"Cut hours of family educators, companion providers and part-timers to 29 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Dickenson County Public Schools", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 29 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Grayson County", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 28 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Strasburg", "emptype":"Public", "actiondetail":"Lowered cap on part-time hours from 35 to 29 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Wythe County", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 28 per week", "jobsimpacted":55, "when":"5/13/2013"},
+          { "employer":"Chesterfield Public Schools", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 28 per week", "jobsimpacted":2000, "when":"4/13/2013"},
+          { "employer":"Tazewell County", "emptype":"Public", "actiondetail":"Lowered cap on part-time hours from 32 to 29 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Richmond Public Schools", "emptype":"Public", "actiondetail":"Cut part-time hours to a maximum of 28 per week", "jobsimpacted":55, "when":"4/13/2013"},
+          { "employer":"Spotsylvania County", "emptype":"Public", "actiondetail":"Cut hours for part-timers to a maximum of 28 per week", "jobsimpacted":40, "when":"4/13/2013"},
+          { "employer":"Chesterfield County", "emptype":"Public", "actiondetail":"Cut hours for up to 'several hundred' part-timers to 28 per week", "jobsimpacted":115, "when":"3/13/2013"},
+          { "employer":"Louisa County", "emptype":"Public", "actiondetail":"Cut hours for part-time and seasonal employees to 29 per week", "jobsimpacted":140, "when":"3/13/2013"},
+          { "employer":"Christopher Newport University", "emptype":"Public", "actiondetail":"Cut hours for part-timers and adjunct faculty to 29 per week", "jobsimpacted":483, "when":"2/13/2013"},
+          { "employer":"College of William & Mary", "emptype":"Public", "actiondetail":"Cut hours for part-timers and adjunct faculty to 29 per week", "jobsimpacted":331, "when":"2/13/2013"},
+          { "employer":"Norfolk State University", "emptype":"Public", "actiondetail":"Cut hours for part-timers and adjunct faculty to 29 per week", "jobsimpacted":504, "when":"2/13/2013"},
+          { "employer":"Virginia government (all other departments)", "emptype":"Public", "actiondetail":"Cut hours for part-time and hourly wage workers to 29 per week", "jobsimpacted":1235, "when":"2/13/2013"},
+          { "employer":"Virginia Commonwealth University", "emptype":"Public", "actiondetail":"Cut hours for part-timers and adjunct faculty to 29 per week", "jobsimpacted":883, "when":"2/13/2013"},
+          { "employer":"Virginia Community College System", "emptype":"Public", "actiondetail":"Cut hours for part-timers and adjunct faculty to 29 per week", "jobsimpacted":1479, "when":"2/13/2013"},
+          { "employer":"Virginia Dept. of Alcoholic Beverage Control", "emptype":"Public", "actiondetail":"Cut hours for part-time and hourly wage workers to 29 per week", "jobsimpacted":605, "when":"2/13/2013"},
+          { "employer":"Virginia Dept. of Conservation and Recreation", "emptype":"Public", "actiondetail":"Cut hours for part-time and hourly wage workers to 29 per week", "jobsimpacted":500, "when":"2/13/2013"},
+          { "employer":"Virginia Employment Commission", "emptype":"Public", "actiondetail":"Cut hours for part-time and hourly wage workers to 29 per week", "jobsimpacted":433, "when":"2/13/2013"},
+          { "employer":"Wytheville", "emptype":"Public", "actiondetail":"Lowered cap on part-time hours from 39 to 28 per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Dept. of Behavioral Health and Developmental Services", "emptype":"Public", "actiondetail":"Cut hours for wage employees to a maximum of 29 per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Dept. of Motor Vehicles", "emptype":"Public", "actiondetail":"Cut hours for wage employees to a maximum of 29 per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"George Mason University", "emptype":"Public", "actiondetail":"Cut hourly wage workers, including students and adjuncts, to a maximum of 29 hours per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"James Madison University", "emptype":"Public", "actiondetail":"Cut hourly wage workers, including students and adjuncts, to a maximum of 29 hours per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Longwood University", "emptype":"Public", "actiondetail":"Cut hourly wage workers, including students and adjuncts, to a maximum of 29 hours per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Old Dominion University", "emptype":"Public", "actiondetail":"Cut hourly wage workers, including students and some adjuncts, to a maximum of 29 hours per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Radford University", "emptype":"Public", "actiondetail":"Capped teaching loads for adjunct faculty", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"University of Mary Washington", "emptype":"Public", "actiondetail":"Cut hourly wage workers, including students and adjuncts, to a maximum of 29 hours per week", "jobsimpacted":55, "when":"2/13/2013"}]},
+
+      {"name": "West Virginia", "size":55, "leaning":25.2, "detail":[
+          { "employer":"Blue Ridge Community And Technical College", "emptype":"Public", "actiondetail":"Capped adjunct teaching loads, limiting work hours to no more than 29 per week", "jobsimpacted":55, "when":"5/13/2013"}]},
+
+      {"name": "Wisconsin", "size":267, "leaning":18.5, "detail":[
+          { "employer":"Minocqua-Hazelhurst-Lake Tomahawk School District", "emptype":"Public", "actiondetail":"Capped part-time hours below 30 per week", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Trig's Supermarkets", "emptype":"Private", "actiondetail":"Cut hours for part-time workers below 30 per week.", "jobsimpacted":55, "when":"7/13/2013"},
+          { "employer":"Mount Horeb Area School District", "emptype":"Public", "actiondetail":"Cut paraprofessional hours to 25 per week", "jobsimpacted":36, "when":"5/13/2013"},
+          { "employer":"Chippewa County", "emptype":"Public", "actiondetail":"Cut part-time hours below 30 per week", "jobsimpacted":15, "when":"4/13/2013"},
+          { "employer":"Land's End", "emptype":"Private", "actiondetail":"Reduced hours for part-timers to a maximum of 29 per week", "jobsimpacted":55, "when":"2/13/2013"},
+          { "employer":"Lomira School District", "emptype":"Public", "actiondetail":"Reduced hours for classified staff to 29 per week", "jobsimpacted":55, "when":"2/13/2013"}]}
+
+    ]
+    }
+   ]
+  }
+ ]
+}
