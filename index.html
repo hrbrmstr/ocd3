@@ -12,45 +12,72 @@ div.intro {
     font-family: 'Libre Baskerville', serif;
     padding-bottom:20px;
 }
-div.container {
-    width:100%;
-}
 text {
   font-size: 14px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+#container {
+    width:100%;
+    clear:both;
+    padding-top:32px;
+}
 #bubbles {
+	width:650px;
     float:left;
+	margin-top:12px;
 }
 #detail {
     overflow-y: auto;
     float:left;
     height:600px;
     width:380px;
+    margin-top:12px;
 }
 </style>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
-  $(function(){
 
-var diameter = 650,
-    format = d3.format(",d"),
-    color = d3.scale.category20c();
+var st;
+var ramp ;
+var svg ;
+var bubble ;
+var format ;
+var color ;
+var diameter ;
+var ocirc ;
 
-var bubble = d3.layout.pack()
+$(function(){
+
+ocirc = null ;
+
+diameter = 650,
+format = d3.format(",d"),
+color = d3.scale.category20c();
+
+bubble = d3.layout.pack()
     .sort(null)
     .size([diameter, diameter])
     .padding(1.5);
 
-var svg = d3.select("#bubbles").append("svg")
+svg = d3.select("#bubbles").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
     .attr("class", "bubble");
 
-var ramp = d3.scale.linear().domain([-21,36]).range(["#253494","#B30000"]);
+ramp = d3.scale.linear().domain([-21,36]).range(["#253494","#B30000"]);
 
 d3.json("states2.json", function(error, root) {
+
+  st = classes(root) ;
+
+  st.children.forEach(function(stateObj) {
+     $('#stateSel')
+        .append($("<option></option>")
+          .attr("value",stateObj.stateName.replace(/ /g,''))
+          .text(stateObj.stateName)) ;
+  }) ;
+
   var node = svg.selectAll(".node")
       .data(bubble.nodes(classes(root))
       .filter(function(d) { return !d.children; }))
@@ -63,19 +90,52 @@ d3.json("states2.json", function(error, root) {
 
   node.append("circle")
       .attr("r", function(d) { return d.r; })
+      .attr("id", function(d) { return(d.stateName.replace(/ /g,'')); })
+      .on("click", function (stcl) {
+        if (ocirc != null) {
+          ocirc.transition().style("fill-opacity", "1.0"); 
+        }
+        ocirc = d3.select("#" + stcl.replace(/ /g,''));
+        ocirc.transition().style("fill-opacity", "0.5"); 
+        var d = ocirc.property("__data__")
+        deets = '<table style="width:360px;border-collapse:collapse;"><td colspan="3" style="padding:3px;background-color:' + ramp(d.leaning) + '; color:#FFFFFF; font-size:15px; font-family:\'Sanchez\',serif;">' + d.stateName + '</tr><tr><td colspan="3" style="padding-bottom:8px;text-align:right;font-size:12px; font-family:\'Sanchez\',serif;">Total jobs impacted: ' + format(d.value) + '</td></tr>'; 
+        deets = deets + "<tr valign='bottom' style='padding-bottom:10px'><td align='left' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b>DATE</b>" + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b>EMPLOYER</b>" + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b># JOBS</b>" + "</td></tr>"
+
+        var rown = 0 ;
+
+        d.detail.forEach(function(det) {
+          rowbg = "#ECE7F2" ;
+          if (rown % 2) { rowbg = "#FFFFFF" ; } 
+          ji = det.jobsimpacted
+          if (ji == 55) ji = "NA"
+          deets = deets + "<tr valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
+          rown = rown + 1;
+        });
+        deets = deets + "</table>"
+        $("#detail").html(deets) ;
+      })
       .on("mouseover", function() {
+        if (ocirc != null) {
+          ocirc.transition().style("fill-opacity", "1.0"); 
+        }
         d3.select(this).transition().style("fill-opacity", "0.5"); 
         var d = this.__data__;
         deets = '<table style="width:360px;border-collapse:collapse;"><td colspan="3" style="padding:3px;background-color:' + ramp(d.leaning) + '; color:#FFFFFF; font-size:15px; font-family:\'Sanchez\',serif;">' + d.stateName + '</tr><tr><td colspan="3" style="padding-bottom:8px;text-align:right;font-size:12px; font-family:\'Sanchez\',serif;">Total jobs impacted: ' + format(d.value) + '</td></tr>'; 
         deets = deets + "<tr valign='bottom' style='padding-bottom:10px'><td align='left' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b>DATE</b>" + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b>EMPLOYER</b>" + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b># JOBS</b>" + "</td></tr>"
 
+        var rown = 0 ;
+
         d.detail.forEach(function(det) {
+          rowbg = "#ECE7F2" ;
+          if (rown % 2) { rowbg = "#FFFFFF" ; } 
           ji = det.jobsimpacted
           if (ji == 55) ji = "NA"
-          deets = deets + "<tr valign='top' style='padding-bottom:10px'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
+          deets = deets + "<tr valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
+          rown = rown + 1;
         });
         deets = deets + "</table>"
         $("#detail").html(deets) ;
+        $("#stateSel").val(d.stateName.replace(/ /g,''));
       })
       .on("mouseout", function() {
         d3.select(this).transition().style("fill-opacity", "1.0"); 
@@ -86,23 +146,17 @@ d3.json("states2.json", function(error, root) {
       .attr("dy", ".3em")
       .style("fill","white")
       .style("text-anchor", "middle")
-      .on("mouseover", function() {
-        var d = this.__data__;
-        deets = '<table style="width:360px;border-collapse:collapse;"><td colspan="3" style="padding:3px;background-color:' + ramp(d.leaning) + '; color:#FFFFFF; font-size:15px; font-family:\'Sanchez\',serif;">' + d.stateName + '</tr><tr><td colspan="3" style="padding-bottom:8px;text-align:right;font-size:12px; font-family:\'Sanchez\',serif;">Total jobs impacted: ' + format(d.value) + '</td></tr>'; 
-        deets = deets + "<tr valign='bottom' style='padding-bottom:10px'><td align='left' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b>DATE</b>" + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b>EMPLOYER</b>" + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + "<b># JOBS</b>" + "</td></tr>"
-
-        d.detail.forEach(function(det) {
-          ji = det.jobsimpacted
-          if (ji == 55) ji = "NA"
-          deets = deets + "<tr valign='top' style='padding-bottom:10px'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
-        });
-        deets = deets + "</table>"
-        $("#detail").html(deets) ;
-      })
-      .on("mouseout", function() {
-        d3.select(this).transition().style("fill-opacity", "1.0"); 
-      })
+      .style("pointer-events","none")
       .text(function(d) { return d.stateName.substring(0, d.r / 3); });
+
+$("#stateSel")
+   .change(function() {
+      $("#stateSel option:selected").each(function() {
+        svg.select("#" + $(this).text().replace(/ /g,'')).on("click")($(this).text()) ;
+      }) ;
+   })
+   .trigger("change") ;
+
 });
 
 // Returns a flattened hierarchy containing all leaf nodes under the root.
@@ -119,19 +173,22 @@ function classes(root) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
+
 });
 </script>
 </head>
 <body>
 <div id="intro"><h3>ObamaCare Employer Mandate: A List Of Cuts To Work Hours, Jobs</h3>
-A mashup of <a href="http://news.investors.com/politics-obamacare/092513-669013-obamacare-employer-mandate-a-list-of-cuts-to-work-hours-jobs.htm?fromcampaign=1">data from Investors.com</a> and <a href="http://www.gallup.com/poll/125066/State-States.aspx">Gallup</a> visualizing which states have had the biggest job impacts ostensibly due to "ObamaCare" and how they "lean" (conservative to liberal). See <a href="http://rud.is/b/obamacare-jobs-r-d3">the companion blog post</a> for more information.</div>
+A mashup of <a href="http://news.investors.com/politics-obamacare/092513-669013-obamacare-employer-mandate-a-list-of-cuts-to-work-hours-jobs.htm?fromcampaign=1">data from Investors.com</a> and <a href="http://www.gallup.com/poll/125066/State-States.aspx">Gallup</a> visualizing which states have had the biggest job impacts ostensibly due to "ObamaCare" and how they "lean" (conservative to liberal). So far, over <b>30,688</b> jobs have been or will be impacted. See <a href="http://rud.is/b/obamacare-jobs-r-d3">the companion blog post</a> for more information.</div>
 <div id="container">
 <div id="bubbles"></div>
+<div id="detailtop">Select (or hover over bubbles): <select name="stateSel" id="stateSel"></select></center><br/>
 <div id="detail"></div>
+</div>
 </div>
 <div style="clear:both">
 <hr noshade size="1"/>
-<div style="text-align:right; width:100%;font-size:12px; font-family:\'Sanchez\',serif;">A data vis <a href="http://twitter.com/hrbrmstr">@hrbrmstr</a> with a great deal of assitance from Mike Bostock's examples</div>
+<div style="text-align:right; width:100%;font-size:12px; font-family:\'Sanchez\',serif;">A data vis by <a href="http://twitter.com/hrbrmstr">@hrbrmstr</a> with a great deal of assitance from Mike Bostock's examples</div>
 </div>
 </body>
 <script type="text/javascript">
