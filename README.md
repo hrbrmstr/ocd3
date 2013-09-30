@@ -9,3 +9,7 @@ See:
 
 - the companion blog post http://rud.is/b/2013/09/28/obamacare-jobs-r-d3/
 - the actual data vis in action http://rud.is/ocd3/
+
+Changelog
+
+2013-09-30 : updated viz to add a selection menu that's tied to the bubbles
