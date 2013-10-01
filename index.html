@@ -51,8 +51,8 @@ $(function(){
 
 ocirc = null ;
 
-diameter = 650,
-format = d3.format(",d"),
+diameter = 650;
+format = d3.format(",d");
 color = d3.scale.category20c();
 
 bubble = d3.layout.pack()
@@ -106,8 +106,8 @@ d3.json("states2.json", function(error, root) {
         d.detail.forEach(function(det) {
           rowbg = "#ECE7F2" ;
           if (rown % 2) { rowbg = "#FFFFFF" ; } 
-          ji = det.jobsimpacted
-          if (ji == 55) ji = "NA"
+          var ji = det.jobsimpacted ;
+          if (ji == 55) { ji = "NA" ; } else { ji = format(ji) ; }
           deets = deets + "<tr title=\"" + det.actiondetail + "\" valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
           rown = rown + 1;
         });
@@ -128,8 +128,8 @@ d3.json("states2.json", function(error, root) {
         d.detail.forEach(function(det) {
           rowbg = "#ECE7F2" ;
           if (rown % 2) { rowbg = "#FFFFFF" ; } 
-          ji = det.jobsimpacted
-          if (ji == 55) ji = "NA"
+          var ji = det.jobsimpacted ;
+          if (ji == 55) { ji = "NA" ; } else { ji = format(ji) ; }
           deets = deets + "<tr title=\"" + det.actiondetail + "\" valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
           rown = rown + 1;
         });
