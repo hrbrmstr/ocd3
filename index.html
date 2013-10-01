@@ -108,7 +108,7 @@ d3.json("states2.json", function(error, root) {
           if (rown % 2) { rowbg = "#FFFFFF" ; } 
           ji = det.jobsimpacted
           if (ji == 55) ji = "NA"
-          deets = deets + "<tr valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
+          deets = deets + "<tr title=\"" + det.actiondetail + "\" valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
           rown = rown + 1;
         });
         deets = deets + "</table>"
@@ -130,7 +130,7 @@ d3.json("states2.json", function(error, root) {
           if (rown % 2) { rowbg = "#FFFFFF" ; } 
           ji = det.jobsimpacted
           if (ji == 55) ji = "NA"
-          deets = deets + "<tr valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
+          deets = deets + "<tr title=\"" + det.actiondetail + "\" valign='top' style='padding-bottom:10px; background-color:" + rowbg + "'><td align='right' style='padding-right:12px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.when + "</td><td style='padding-right:6px;font-size:12px; font-family:\'Sanchez\',serif;'>" + det.employer + "</td><td align='right' style='font-size:12px; font-family:\'Sanchez\',serif;'>" + ji + "</td></tr>"
           rown = rown + 1;
         });
         deets = deets + "</table>"
@@ -182,7 +182,7 @@ d3.select(self.frameElement).style("height", diameter + "px");
 A mashup of <a href="http://news.investors.com/politics-obamacare/092513-669013-obamacare-employer-mandate-a-list-of-cuts-to-work-hours-jobs.htm?fromcampaign=1">data from Investors.com</a> and <a href="http://www.gallup.com/poll/125066/State-States.aspx">Gallup</a> visualizing which states have had the biggest job impacts ostensibly due to "ObamaCare" and how they "lean" (conservative to liberal). So far, over <b>30,688</b> jobs have been or will be impacted. See <a href="http://rud.is/b/obamacare-jobs-r-d3">the companion blog post</a> for more information.</div>
 <div id="container">
 <div id="bubbles"></div>
-<div id="detailtop">Select (or hover over bubbles): <select name="stateSel" id="stateSel"></select></center><br/>
+<div id="detailtop">Select (or hover over bubbles): <select name="stateSel" id="stateSel"></select><br/><span style="font-size:8px">Hover over rows for more detail</span><br/>
 <div id="detail"></div>
 </div>
 </div>

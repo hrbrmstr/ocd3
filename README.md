@@ -15,3 +15,4 @@ Changelog
 2013-09-30
 - updated viz to add a selection menu that's tied to the bubbles
 - alternated table row background colors
+- added title text to table rows
