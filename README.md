@@ -17,3 +17,4 @@ Changelog
 - alternated table row background colors
 - added title text to table rows
 - formatted numners in table rows
+- mouse cursor is now a pointer over table rows
